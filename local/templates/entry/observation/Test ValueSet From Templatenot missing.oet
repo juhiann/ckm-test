@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<template xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="openEHR/v1/Template">
+  <id>82a562b3-447a-4f0d-93cc-092408a6571c</id>
+  <name>Test ValueSet From Templatenot missing</name>
+  <description>
+    <lifecycle_state>Initial</lifecycle_state>
+    <details>
+      <purpose />
+      <use />
+      <misuse />
+    </details>
+    <other_details>
+      <item>
+        <key>MetaDataSet:Sample Set </key>
+        <value>Template metadata sample set </value>
+      </item>
+      <item>
+        <key>Acknowledgements</key>
+        <value />
+      </item>
+      <item>
+        <key>Business Process Level</key>
+        <value />
+      </item>
+      <item>
+        <key>Care setting</key>
+        <value />
+      </item>
+      <item>
+        <key>Client group</key>
+        <value />
+      </item>
+      <item>
+        <key>Clinical Record Element</key>
+        <value />
+      </item>
+      <item>
+        <key>Copyright</key>
+        <value />
+      </item>
+      <item>
+        <key>Issues</key>
+        <value />
+      </item>
+      <item>
+        <key>Owner</key>
+        <value />
+      </item>
+      <item>
+        <key>Sign off</key>
+        <value />
+      </item>
+      <item>
+        <key>Speciality</key>
+        <value />
+      </item>
+      <item>
+        <key>User roles</key>
+        <value />
+      </item>
+    </other_details>
+  </description>
+  <definition xsi:type="OBSERVATION" archetype_id="openEHR-EHR-OBSERVATION.indirect_oximetry.v1" concept_name="*Oximetry(en)">
+    <Rule path="/data[at0001]/events[at0002]/state[at0014]/items[at0016]">
+      <constraint xsi:type="textConstraint">
+        <termQueryId terminologyID="//fhir.hl7.org" queryName="ValueSet/$expand?url=http://hl7.org/fhir/vs/snomed-example-vs" />
+      </constraint>
+    </Rule>
+  </definition>
+  <integrity_checks xsi:type="ArchetypeIntegrity" archetype_id="openEHR-EHR-OBSERVATION.indirect_oximetry.v1">
+    <digest id="MD5-CAM-1.0.1">20011847A5995DE4BEE632C7C59EDF8D</digest>
+  </integrity_checks>
+</template>
