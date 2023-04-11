@@ -44,7 +44,7 @@ description
 			use = <"Utilizado para registrar los detalles de cualquier dispositivo genérico que puede ser utilizado directamente de un modo terapéutico o diagnóstico, o indirectamente como apoyo a la provisión de cuidados de la salud. El uso del término dispositivo varía dependiendo del contexto. En el mundo de los estándares, el término dispositivo tiende a referirse a dispositivos mecánicos o electrónicos que actuan como apoyo del cuidado de la salud y que requiren documentación rigurosa en cuanto a especificaciones, mantenimiento, etc. En el contexto de las terminologías, el uso de dispositivo es muy amplio, incluyendo a cualquier objeto físico que pueda ser utilizado directa o indirectamente en la provisión de cuidados clínicos. Los ejemplos incluyen ventiladores, medidores de flujo expiratorio máximo, espirómetros, lentes oculares y de contacto, catéteres endovasculares, implantes mamarios, prótesis, tubos de drenaje y anillos para callos. 
 Este arquetipo esta diseñado para proveer la base de una representación estructurada de cualquier dispositivo, desde el simple ejemplo de una marca de tira reactiva urinaria con una fecha de vencimiento hasta un oído biónico implantable que puede requerir documentación compleja, software, hardware, mantenimiento, calibración, etc.
 Para los casos de uso habituales podría ser apropiada la especialización de este arquetipo para formas específicas (ej.: cateter endovascular o cateter urinario).">
-			keywords = <"dispositivo", "máquina", "implante", "cateter", "prótesis", "auxiliar", "biomédico", "instrumento", "equipamiento", "medidor", "monitor", "físico", "objeto">
+			keywords = <"dispositivo", "máquina", "implante", "cateter", "prótesis", "auxiliar", "biomédico", "instrumento", "equipamiento", "medidor", "monitor", "físico", "objeto", "Juhi test branch">
 			misuse = <"No debe ser utilizado para el registro de medicamentos, vacunas o similares, que se utizan como medios terapéuticos o metabólicos.">
 			copyright = <"© openEHR Foundation, Alberta Health Services (Canada), Alberta Health Services (Canada), openEHR Foundation">
 		>
@@ -127,8 +127,8 @@ Guidelines for 64-bit Global Identifier (EUI-64) [Internet]. IEEE Standards Asso
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"95EC08B29A4449CD5D86F2277AA2EF32">
-		["build_uid"] = <"770bc0be-4eab-42de-b190-cb28e6048797">
+		["MD5-CAM-1.0.1"] = <"EA0BD8AACB829BB15AB2416EBA25F909">
+		["build_uid"] = <"e9364b3b-6113-4a1e-9b2f-8edefe24777c">
 		["revision"] = <"0.0.1-alpha">
 	>
 
