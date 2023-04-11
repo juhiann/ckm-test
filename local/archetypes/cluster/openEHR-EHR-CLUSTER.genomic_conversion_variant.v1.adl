@@ -77,9 +77,9 @@ Sequence Variant Nomenclature - DNA Recommendations - Conversion Variant [Intern
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"E8508DA94B907A913D6922DF808858BC">
-		["build_uid"] = <"1632ac0a-4346-45db-bfb8-db2be259ebac">
-		["revision"] = <"1.0.2">
+		["MD5-CAM-1.0.1"] = <"64E146B5FF818F3312DABD85104D082C">
+		["build_uid"] = <"c063608d-8b62-45f1-8085-b4ed26c272fe">
+		["revision"] = <"1.0.3">
 	>
 
 definition

@@ -1,4 +1,4 @@
-﻿archetype (adl_version=1.4; uid=1d9417b0-2abe-4cb6-b725-eeaa5b493f8b)
+﻿archetype (adl_version=1.4; uid=1e15c54c-f229-47c4-990f-4c35656d7dbc)
 	openEHR-EHR-COMPOSITION.advance_care.v0
 
 concept
@@ -35,12 +35,13 @@ Not to be used to carry archetypes that are related to care plans related to man
 	other_contributors = <>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
-		["custodian_organisation"] = <"openEHR Foundation">
-		["original_namespace"] = <"org.openehr">
-		["original_publisher"] = <"openEHR Foundation">
-		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"B08FF6569A530B3E5FC70322F07E93B4">
-		["build_uid"] = <"d7a7f022-0f34-467d-b6e7-9c97caac407b">
+		["custodian_organisation"] = <"Ocean Informatics">
+		["references"] = <"Derived from: <Add reference to original resource here>">
+		["original_namespace"] = <"com.oceaninformatics">
+		["original_publisher"] = <"Ocean Informatics">
+		["custodian_namespace"] = <"com.oceaninformatics">
+		["MD5-CAM-1.0.1"] = <"8D36538030DCFE1D95085A694CFF51AB">
+		["build_uid"] = <"90a7e1e9-de51-482e-a39d-2585f59d860e">
 		["revision"] = <"0.0.1-alpha">
 	>
 
