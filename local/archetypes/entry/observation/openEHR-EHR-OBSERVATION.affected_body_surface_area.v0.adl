@@ -17,7 +17,7 @@ description
 			language = <[ISO_639-1::en]>
 			purpose = <"To record details about the estimated proportion of body surface area affected by a skin injury or disease.">
 			use = <"Use to record details about the estimated proportion of body surface area affected by a skin injury or disease, including the total body surface area affected, the body surface area affected per body site and the body surface area affected per severity.">
-			keywords = <"TBSA", "BSA", "burn", "rash", "psoriasis">
+			keywords = <"TBSA", "BSA", "burn", "rash", "psoriasis", "Juhi TEST 1">
 			misuse = <"Not to be used to record the measured or calculated body surface area of an individual - use the OBSERVATION.body_surface_area for this purpose.">
 		>
 	>
@@ -29,8 +29,8 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"1FF142D22E7C3F0EC0BFCB614839DCBC">
-		["build_uid"] = <"f4f3c9f8-e1bb-4c6d-986d-b4507983b3a4">
+		["MD5-CAM-1.0.1"] = <"10FD170819F31C829D0A50DC5A66E484">
+		["build_uid"] = <"6cd8d238-c0f6-4584-a237-b827f57cb619">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -151,7 +151,6 @@ definition
 			}
 		}
 	}
-
 
 ontology
 	term_definitions = <
