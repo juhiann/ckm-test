@@ -63,7 +63,7 @@ description
 			language = <[ISO_639-1::ar-sy]>
 			purpose = <"لتسجيل التفاصيل حول تعريف إصابة مَرَضية ما">
 			use = <"">
-			misuse = <"">
+			misuse = <"Test JJ CKM-1983">
 			copyright = <"© copyright (c) 2010 openEHR Foundation, openEHR Foundation">
 		>
 	>
@@ -79,7 +79,7 @@ description
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"D94F932D76D2D0389D242063ED336124">
-		["build_uid"] = <"76b9367d-f26d-4d22-a79d-d02cffa0dda5">
+		["build_uid"] = <"a3335cd0-996c-4b95-af6c-11ecc13d79e2">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -114,7 +114,6 @@ definition
 			}
 		}
 	}
-
 
 ontology
 	term_definitions = <
