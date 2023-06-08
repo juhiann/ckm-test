@@ -44,6 +44,15 @@ language
 				["name"] = <"Mona Saleh">
 			>
 		>
+		["it"] = <
+			language = <[ISO_639-1::it]>
+			author = <
+				["name"] = <"Juhi-Ann Jose">
+				["organisation"] = <"OceanHealth">
+				["email"] = <"juhi.jose@oceanhealthsystems.com">
+			>
+			other_contributors = <"juhi.jose", "testing.june">
+		>
 	>
 description
 	original_author = <
@@ -100,9 +109,15 @@ description
 			misuse = <"">
 			copyright = <"© openEHR Foundation">
 		>
+		["it"] = <
+			language = <[ISO_639-1::it]>
+			purpose = <"*To record details of one or more personal addresses for an individual.(en)">
+			use = <"">
+			misuse = <"">
+		>
 	>
 	lifecycle_state = <"in_development">
-	other_contributors = <>
+	other_contributors = <"test.june", ...>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.">
 		["custodian_organisation"] = <"openEHR Foundation">
@@ -110,8 +125,8 @@ description
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"E0EB7F3ABF472AF6AB27D958C6C290AE">
-		["build_uid"] = <"17884221-68ae-4691-aef7-3fab7cf650ea">
+		["MD5-CAM-1.0.1"] = <"31A4E867A0A914772F7912B89B79C02B">
+		["build_uid"] = <"6a4ccda2-2da6-46a8-b5f5-848ddb02d5ee">
 		["revision"] = <"0.0.1-alpha">
 	>
 
@@ -563,6 +578,70 @@ ENV 13606 - 4:2000 7.11.11.
 				["at0015"] = <
 					text = <"Adresse gyldighets periode">
 					description = <"Det tidsrom der den pågjeldende adresse er gyldig.">
+				>
+			>
+		>
+		["it"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Address(en)">
+					description = <"*To record details of one or more personal addresses.(en)">
+				>
+				["at0001"] = <
+					text = <"*Address(en)">
+					description = <"*One or more adresses for an individual.(en)">
+				>
+				["at0002"] = <
+					text = <"*Unstructured address(en)">
+					description = <"*A postal address expressed in an unstructured format. ENV 13606 - 4:2000 7.11.15.(en)">
+				>
+				["at0003"] = <
+					text = <"*Structured address(en)">
+					description = <"*The structure of a postal address representing the residence of a patient or the physical location of an organisation. ENV 13606-4:2000 7.11.1.(en)">
+				>
+				["at0004"] = <
+					text = <"*Post code(en)">
+					description = <"*Post code.(en)">
+				>
+				["at0005"] = <
+					text = <"*Property number(en)">
+					description = <"*The number of the property.(en)">
+				>
+				["at0006"] = <
+					text = <"*Address Type(en)">
+					description = <"*The type of address.(en)">
+				>
+				["at0007"] = <
+					text = <"*Valid from(en)">
+					description = <"*The start of the period for which this address is valid.(en)">
+				>
+				["at0008"] = <
+					text = <"*Valid to(en)">
+					description = <"*Date from which the Address is no longer valid.(en)">
+				>
+				["at0009"] = <
+					text = <"*Address line(en)">
+					description = <"*A series of address lines.(en)">
+				>
+				["at0011"] = <
+					text = <"*Residential(en)">
+					description = <"*Address of place of residence.(en)">
+				>
+				["at0012"] = <
+					text = <"*Correspondence(en)">
+					description = <"*Address for correspondence.(en)">
+				>
+				["at0013"] = <
+					text = <"*Business(en)">
+					description = <"*Address of place of business.(en)">
+				>
+				["at0014"] = <
+					text = <"*Temporary(en)">
+					description = <"*Temporary address.(en)">
+				>
+				["at0015"] = <
+					text = <"*AddressValid Period(en)">
+					description = <"*The period during which the associated address is applicable to the person / organisation. ENV 13606 - 4:2000 7.11.11. This describes the actual period.(en)">
 				>
 			>
 		>
