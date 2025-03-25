@@ -6,6 +6,14 @@ concept
 language
 	original_language = <[ISO_639-1::en]>
 	translations = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			author = <
+				["name"] = <"Juhi-Ann Jose">
+				["organisation"] = <"OceanHealth">
+				["email"] = <"juhi.jose@oceanhealthsystems.com">
+			>
+		>
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			author = <
@@ -43,6 +51,18 @@ description
 		["date"] = <"2008-11-10">
 	>
 	details = <
+		["de"] = <
+			language = <[ISO_639-1::de]>
+			purpose = <"*To record structured details about a physical site on or within the human body that is described in terms of the direction, and optionally the distance, of the site from a central landmark.(en)">
+			use = <"*Use to record structured details about a physical site on or within the human body that is described in terms of the direction, and optionally the distance, of the site from a central landmark. The direction will be relative to the identified reference direction which may be implied in some examinations - for example, the 12 o'clock in examination of the breast or anus.
+
+This archetype is specifically designed to be used within the context of any appropriate ENTRY or CLUSTER archetypes which supply the context of the identified body site, or nesting in the 'Alternative Structure' SLOT within the CLUSTER.anatomical_location.
+
+In the situation where the CLUSTER.anatomical_location can only be used to name a large and/or non-specific body part, the use of this archetype within the 'Alternative Structure' SLOT will support recording of a more precise location - for example, a haemorrhoid located at 7 o'clock, where the 12 o'clock reference point is the perineum, or anterior surface of the body, with the patient in the lithotomy position.(en)">
+			misuse = <"*Not to be used to specify a simple location of a named physical site in the body, such as left femur or medial aspect of nose. Use the CLUSTER.anatomical_location archetype for this purpose.
+
+Not to be used to specify a relative location of a physical site in the body, such as a bruise that is 5 cm inferior to the umbilicus. Use the CLUSTER.anatomical_location_relative for this purpose.(en)">
+		>
 		["sv"] = <
 			language = <[ISO_639-1::sv]>
 			purpose = <"Registrering av strukturerade detaljer om en fysisk plats på eller i människokroppen som beskrivs i termer av riktning och eventuellt avståndet från platsen till ett centralt landmärke.">
@@ -113,9 +133,9 @@ Not to be used to specify a relative location of a physical site in the body, su
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
-		["MD5-CAM-1.0.1"] = <"5356E2DD105C0AA2CC6B05D0D718AC08">
-		["build_uid"] = <"9c04e1dd-b5fc-4b00-8e60-745e97e08f83">
-		["revision"] = <"1.0.1">
+		["MD5-CAM-1.0.1"] = <"1D9E389BC20734BBEA6C3DAA5CA7A098">
+		["build_uid"] = <"f8efc52b-1534-4ec2-b23d-23b2c2cd0c40">
+		["revision"] = <"1.0.2">
 	>
 
 definition
@@ -623,6 +643,86 @@ ontology
 				["at0080"] = <
 					text = <"Avstånd från mittpunkten">
 					description = <"Avstånd till platsen från den identifierade mittpunkten.">
+				>
+			>
+		>
+		["de"] = <
+			items = <
+				["at0000"] = <
+					text = <"*Circular anatomical location(en)">
+					description = <"*A physical site on or within the human body that is described in terms of the direction, and optionally the distance, of the site from a central landmark.(en)">
+				>
+				["at0023"] = <
+					text = <"*Description(en)">
+					description = <"*Narrative description that can be used to further refine and support structured data about the circular location.(en)">
+				>
+				["at0054"] = <
+					text = <"*Multimedia representation(en)">
+					description = <"*Image or other media used to support identification of the location on the body.(en)">
+				>
+				["at0061"] = <
+					text = <"*Circular direction(en)">
+					description = <"*Identification of the angle of the direction to the physical site relative to the reference direction, either as the position of an hour hand on a clockface or number of degrees.(en)">
+				>
+				["at0065"] = <
+					text = <"*Reference direction(en)">
+					description = <"*Identification of a single direction which represents the 12 o'clock or 0° position on an imaginary circle superimposed over the body site, as seen by the examiner.(en)">
+				>
+				["at0067"] = <
+					text = <"*One o'clock(en)">
+					description = <"*The body site is located at the one o'clock position relative to the identified reference point.(en)">
+				>
+				["at0068"] = <
+					text = <"*Two o'clock(en)">
+					description = <"*The body site is located at the two o'clock position relative to the identified reference point.(en)">
+				>
+				["at0069"] = <
+					text = <"*Three o'clock(en)">
+					description = <"*The body site is located at the three o'clock position relative to the identified reference point.(en)">
+				>
+				["at0070"] = <
+					text = <"*Four o'clock(en)">
+					description = <"*The body site is located at the four o'clock position relative to the identified reference point.(en)">
+				>
+				["at0071"] = <
+					text = <"*Five o'clock(en)">
+					description = <"*The body site is located at the five o'clock position relative to the identified reference point.(en)">
+				>
+				["at0072"] = <
+					text = <"*Six o'clock(en)">
+					description = <"*The body site is located at the six o'clock position relative to the identified reference point.(en)">
+				>
+				["at0073"] = <
+					text = <"*Seven o'clock(en)">
+					description = <"*The body site is located at the seven o'clock position relative to the identified reference point.(en)">
+				>
+				["at0074"] = <
+					text = <"*Eight o'clock(en)">
+					description = <"*The body site is located at the eight o'clock position relative to the identified reference point.(en)">
+				>
+				["at0075"] = <
+					text = <"*Nine o'clock(en)">
+					description = <"*The body site is located at the nine o'clock position relative to the identified reference point.(en)">
+				>
+				["at0076"] = <
+					text = <"*Ten o'clock(en)">
+					description = <"*The body site is located at the ten o'clock position relative to the identified reference point.(en)">
+				>
+				["at0077"] = <
+					text = <"*Eleven o'clock(en)">
+					description = <"*The body site is located at the eleven o'clock position relative to the identified reference point.(en)">
+				>
+				["at0078"] = <
+					text = <"*Twelve o'clock(en)">
+					description = <"*The body site is located at the twelve o'clock position relative to the identified reference point.(en)">
+				>
+				["at0079"] = <
+					text = <"*Centre landmark(en)">
+					description = <"*Identified body site used as a reference point for centre of the imaginary circle.(en)">
+				>
+				["at0080"] = <
+					text = <"*Distance from landmark(en)">
+					description = <"*Distance of location from the identified central landmark.(en)">
 				>
 			>
 		>
