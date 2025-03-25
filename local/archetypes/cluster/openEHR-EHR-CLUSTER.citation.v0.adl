@@ -116,7 +116,7 @@ This archetype is deliberately designed as a CLUSTER class archetype so that the
 		["original_publisher"] = <"openEHR Foundation">
 		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"79A932331C2792107C0451AFE708108A">
-		["build_uid"] = <"6129194a-81ae-4611-a3cb-8e2fa25a9190">
+		["build_uid"] = <"72771e81-863a-4c1d-ad49-4d97f5ded5ca">
 		["revision"] = <"0.0.1-alpha">
 	>
 
