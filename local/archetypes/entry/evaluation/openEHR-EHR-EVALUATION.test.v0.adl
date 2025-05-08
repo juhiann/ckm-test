@@ -28,13 +28,13 @@ description
 	other_contributors = <>
 	other_details = <
 		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/.">
-		["custodian_organisation"] = <"openEHR Foundation">
+		["revision"] = <"0.0.1-alpha">
+		["build_uid"] = <"3de9cfcd-d003-4003-9eda-0fb7376b3ecf">
 		["original_namespace"] = <"org.openehr">
 		["original_publisher"] = <"openEHR Foundation">
-		["custodian_namespace"] = <"org.openehr">
 		["MD5-CAM-1.0.1"] = <"46D8FD5362A1DA8001221E9CF76823C6">
-		["build_uid"] = <"3de9cfcd-d003-4003-9eda-0fb7376b3ecf">
-		["revision"] = <"0.0.1-alpha">
+		["custodian_namespace"] = <"org.openehr">
+		["custodian_organisation"] = <"openEHR Foundation">
 	>
 
 definition

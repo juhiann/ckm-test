@@ -202,43 +202,43 @@ ontology
 					text = <"Low mood...">
 					description = <"\"Low mood, sadness, feeling blah or down, depressed, just can’t be bothered.\"">
 					kadssixteen = <"Q1">
-					kADS6 = <"Q1">
 					kADS11 = <"Q1">
+					kADS6 = <"Q1">
 				>
 				["at0012"] = <
 					text = <"Feelings of worthlessness...">
 					description = <"\"Feelings of worthlessness, hopelessness, letting people down, not being a good person.\"">
 					kADS16 = <"Q5">
-					kADS6 = <"Q2">
 					kADS11 = <"Q5">
+					kADS6 = <"Q2">
 				>
 				["at0013"] = <
 					text = <"Feeling tired...">
 					description = <"\"Feeling tired, feeling fatigued, low in energy, hard to get motivated, have to push to get things done, want to rest or lie down a lot.\"">
 					kadssixteen = <"Q6">
-					kADS6 = <"Q3">
 					kADS11 = <"Q6">
+					kADS6 = <"Q3">
 				>
 				["at0015"] = <
 					text = <"Life is not much fun...">
 					description = <"\"Feeling that life is not very much fun, not feeling good when usually (before getting sick) would feel good, not getting as much pleasure from fun things as usual (before getting sick).\"">
 					kADS16 = <"Q9">
-					kADS6 = <"Q4">
 					kADS11 = <"Q8">
+					kADS6 = <"Q4">
 				>
 				["at0016"] = <
 					text = <"Feeling worried...">
 					description = <"\"Feeling worried, nervous, panicky, tense, keyed up, anxious.\"">
 					kADS16 = <"Q10">
-					kADS6 = <"Q5">
 					kADS11 = <"Q9">
+					kADS6 = <"Q5">
 				>
 				["at0018"] = <
 					text = <"Thoughts, plans, or actions about suicide or self-harm">
 					description = <"\"Thoughts, plans, or actions about suicide or self-harm.\"">
 					kADS16 = <"Q13">
-					kADS6 = <"Q6">
 					kADS11 = <"Q11">
+					kADS6 = <"Q6">
 				>
 				["at0005"] = <
 					text = <"Hardly Ever">

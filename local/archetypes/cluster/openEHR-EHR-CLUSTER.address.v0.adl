@@ -51,7 +51,10 @@ language
 				["organisation"] = <"OceanHealth">
 				["email"] = <"juhi.jose@oceanhealthsystems.com">
 			>
-			other_contributors = <"juhi.jose", "testing.june">
+			other_details = <
+				["other_contributors"] = <"juhi.jose
+testing.june">
+			>
 		>
 	>
 description
